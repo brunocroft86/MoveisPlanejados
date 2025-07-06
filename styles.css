@@ -1,0 +1,89 @@
+body {
+  background: #f6f8fa;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: #fff;
+  max-width: 400px;
+  margin: 40px auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(30, 34, 90, 0.12);
+  padding: 32px 24px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 2rem;
+  color: #1a2545;
+  font-weight: 700;
+}
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  color: #1a2545;
+}
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #dde3ec;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  background: #f9fafb;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+input:focus {
+  border-color: #3751ff;
+  background: #fff;
+}
+.telefones {
+  margin-bottom: 18px;
+}
+.telefones input {
+  margin-bottom: 8px;
+}
+.add-phone {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #3751ff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 0.98rem;
+  margin-bottom: 12px;
+  transition: background 0.2s;
+}
+.add-phone:hover {
+  background: #d2e3fc;
+}
+button[type="submit"] {
+  width: 100%;
+  background: linear-gradient(90deg,#3751ff 60%,#69a6ff 100%);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(55, 81, 255, 0.09);
+}
+button[type="submit"]:hover {
+  box-shadow: 0 4px 16px rgba(55, 81, 255, 0.18);
+  background: linear-gradient(90deg,#2741e6 60%,#57a6ff 100%);
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 18px 4vw;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+    
